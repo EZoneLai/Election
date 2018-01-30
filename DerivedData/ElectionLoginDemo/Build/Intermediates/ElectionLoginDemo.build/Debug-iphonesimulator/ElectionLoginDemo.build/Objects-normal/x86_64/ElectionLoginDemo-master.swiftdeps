@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "79919211b6f170546427b1f0fd9423d1"
+build_time: [542145468, 59377000]
+inputs:
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/taiwan_area.swift": [541786476, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/popWindowController.swift": [541146121, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/SignInViewController.swift": [542142661, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/LoginViewController.swift": [542145467, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/CitysViewController.swift": [542097066, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/AreaIconView.swift": [542131405, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/VillageViewController.swift": [542142661, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/ViewController.swift": [540544703, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/DistrictViewController.swift": [542097066, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/AreaIconViewController.swift": [542132316, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/FrontViewController.swift": [541846087, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/OccupationViewController.swift": [542089222, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/myViewController.swift": [542089222, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/ReturnLoginViewController.swift": [542145467, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/AppDelegate.swift": [542145178, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/MainViewController.swift": [542105896, 0]
+  "/Users/louise/Desktop/ElectionLoginDemo/ElectionLoginDemo/FirstEntryViewController.swift": [542089222, 0]

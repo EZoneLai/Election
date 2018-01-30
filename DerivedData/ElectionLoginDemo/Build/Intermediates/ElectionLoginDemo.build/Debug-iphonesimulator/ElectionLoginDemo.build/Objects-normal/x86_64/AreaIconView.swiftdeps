@@ -1,0 +1,782 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AreaIconviewDelegate"
+- "AreaIconView"
+provides-nominal:
+- "P17ElectionLoginDemo20AreaIconviewDelegate"
+- "C17ElectionLoginDemo12AreaIconView"
+provides-member:
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", ""]
+- ["C17ElectionLoginDemo12AreaIconView", ""]
+provides-dynamic-lookup:
+- "original_height"
+- "view_to_handle"
+- "area_data"
+- "getPixelColorAtLocation"
+- "original_y"
+- "original_x"
+- "datas"
+- "original_width"
+- "update_tableview"
+- "delegate"
+- "tableview_to_update"
+- "shrink"
+- "test"
+- "touchesBegan"
+- "touchesEnded"
+- "enlarge"
+depends-top-level:
+- "AreaIconView"
+- "Set"
+- !private "CGImageAlphaInfo"
+- "UIImageView"
+- "AreaIconviewDelegate"
+- !private "=="
+- !private "print"
+- !private "CGColorSpace"
+- "Int"
+- !private "CGBitmapInfo"
+- "AssignmentPrecedence"
+- !private "UnsafeMutablePointer"
+- !private "|"
+- !private "CGContext"
+- "UITableView"
+- "UIEvent"
+- "UIView"
+- !private "-"
+- "CGPoint"
+- !private "CGColorSpaceCreateDeviceRGB"
+- "String"
+- "UInt8"
+- !private "StringLiteralType"
+- "UITouch"
+depends-member:
+- !private ["Ps9AnyObject", "CGBitmapInfo"]
+- !private ["Ps9AnyObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9AnyObject", "CGContext"]
+- !private ["Ps9AnyObject", "CGImageAlphaInfo"]
+- !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "getPixelColorAtLocation"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "location"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "render"]
+- ["Ps9AnyObject", "touchesBegan"]
+- ["Ps9AnyObject", "touchesEnded"]
+- !private ["Ps9AnyObject", "translateBy"]
+- ["Ps9AnyObject", ""]
+- ["C17ElectionLoginDemo12AreaIconView", "AreaIconviewDelegate"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "CGBitmapInfo"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "CGColorSpace"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "CGColorSpaceCreateDeviceRGB"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "CGContext"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "CGImageAlphaInfo"]
+- ["C17ElectionLoginDemo12AreaIconView", "CGPoint"]
+- ["C17ElectionLoginDemo12AreaIconView", "Set"]
+- ["C17ElectionLoginDemo12AreaIconView", "UIEvent"]
+- ["C17ElectionLoginDemo12AreaIconView", "UITouch"]
+- ["C17ElectionLoginDemo12AreaIconView", "UInt8"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "UnsafeMutablePointer"]
+- ["C17ElectionLoginDemo12AreaIconView", "deinit"]
+- ["C17ElectionLoginDemo12AreaIconView", "delegate"]
+- ["C17ElectionLoginDemo12AreaIconView", "getPixelColorAtLocation"]
+- ["C17ElectionLoginDemo12AreaIconView", "init"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "layer"]
+- !private ["C17ElectionLoginDemo12AreaIconView", "print"]
+- ["C17ElectionLoginDemo12AreaIconView", "touchesBegan"]
+- ["C17ElectionLoginDemo12AreaIconView", "touchesEnded"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "Int"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "String"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "UITableView"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "UIView"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "UInt8"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "area_data"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "datas"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "enlarge"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "original_height"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "original_width"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "original_x"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "original_y"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "shrink"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "tableview_to_update"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "test"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "update_tableview"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", "view_to_handle"]
+- ["P17ElectionLoginDemo20AreaIconviewDelegate", ""]
+- ["Sa", "deinit"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["CSo7CALayer", "deinit"]
+- !private ["CSo7CALayer", "render"]
+- !private ["PSo15CALayerDelegate", "CGBitmapInfo"]
+- !private ["PSo15CALayerDelegate", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo15CALayerDelegate", "CGContext"]
+- !private ["PSo15CALayerDelegate", "CGImageAlphaInfo"]
+- !private ["PSo15CALayerDelegate", "UnsafeMutablePointer"]
+- ["PSo15CALayerDelegate", "delegate"]
+- ["PSo15CALayerDelegate", "getPixelColorAtLocation"]
+- !private ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo15CALayerDelegate", "print"]
+- ["PSo15CALayerDelegate", "touchesBegan"]
+- ["PSo15CALayerDelegate", "touchesEnded"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "render"]
+- !private ["VSC12CGBitmapInfo", "byteOrder32Little"]
+- ["VSC12CGBitmapInfo", "deinit"]
+- !private ["VSC12CGBitmapInfo", "rawValue"]
+- ["CSo12CGColorSpace", "deinit"]
+- ["CSo9CGContext", "deinit"]
+- !private ["CSo9CGContext", "init"]
+- !private ["CSo9CGContext", "translateBy"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["OSC16CGImageAlphaInfo", "deinit"]
+- !private ["OSC16CGImageAlphaInfo", "premultipliedFirst"]
+- !private ["OSC16CGImageAlphaInfo", "rawValue"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["VSC6CGRect", "deinit"]
+- !private ["Ps7CVarArg", "CGBitmapInfo"]
+- !private ["Ps7CVarArg", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps7CVarArg", "CGContext"]
+- !private ["Ps7CVarArg", "CGImageAlphaInfo"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "UnsafeMutablePointer"]
+- !private ["Ps7CVarArg", "_Element"]
+- ["Ps7CVarArg", "delegate"]
+- !private ["Ps7CVarArg", "first"]
+- ["Ps7CVarArg", "getPixelColorAtLocation"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "keys"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "location"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "render"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "touchesBegan"]
+- ["Ps7CVarArg", "touchesEnded"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "keys"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGBitmapInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContext"]
+- !private ["Ps28CustomDebugStringConvertible", "CGImageAlphaInfo"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UnsafeMutablePointer"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- ["Ps28CustomDebugStringConvertible", "getPixelColorAtLocation"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "keys"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "location"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "render"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "touchesBegan"]
+- ["Ps28CustomDebugStringConvertible", "touchesEnded"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "keys"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CGBitmapInfo"]
+- !private ["Ps23CustomStringConvertible", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps23CustomStringConvertible", "CGContext"]
+- !private ["Ps23CustomStringConvertible", "CGImageAlphaInfo"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UnsafeMutablePointer"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- ["Ps23CustomStringConvertible", "getPixelColorAtLocation"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "keys"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "location"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "render"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "touchesBegan"]
+- ["Ps23CustomStringConvertible", "touchesEnded"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "IndexDistance"]
+- !private ["Vs10Dictionary", "Iterator"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "_Element"]
+- !private ["Vs10Dictionary", "keys"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGBitmapInfo"]
+- !private ["Ps9Equatable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9Equatable", "CGContext"]
+- !private ["Ps9Equatable", "CGImageAlphaInfo"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "UnsafeMutablePointer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "byteOrder32Little"]
+- ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "first"]
+- ["Ps9Equatable", "getPixelColorAtLocation"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "location"]
+- !private ["Ps9Equatable", "premultipliedFirst"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "render"]
+- ["Ps9Equatable", "touchesBegan"]
+- ["Ps9Equatable", "touchesEnded"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "byteOrder32Little"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "IndexDistance"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "_Element"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "keys"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "CGBitmapInfo"]
+- !private ["Ps8Hashable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps8Hashable", "CGContext"]
+- !private ["Ps8Hashable", "CGImageAlphaInfo"]
+- !private ["Ps8Hashable", "Iterator"]
+- !private ["Ps8Hashable", "UnsafeMutablePointer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "first"]
+- ["Ps8Hashable", "getPixelColorAtLocation"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "location"]
+- !private ["Ps8Hashable", "premultipliedFirst"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "render"]
+- ["Ps8Hashable", "touchesBegan"]
+- ["Ps8Hashable", "touchesEnded"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "keys"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "keys"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps22LazyCollectionProtocol", "Iterator"]
+- !private ["Vs17LazyMapCollection", "Iterator"]
+- ["Vs17LazyMapCollection", "deinit"]
+- !private ["Vs15LazyMapIterator", "Element"]
+- !private ["Ps20LazySequenceProtocol", "Iterator"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CGBitmapInfo"]
+- !private ["PSo8NSCoding", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo8NSCoding", "CGContext"]
+- !private ["PSo8NSCoding", "CGImageAlphaInfo"]
+- !private ["PSo8NSCoding", "UnsafeMutablePointer"]
+- ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "getPixelColorAtLocation"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "render"]
+- ["PSo8NSCoding", "touchesBegan"]
+- ["PSo8NSCoding", "touchesEnded"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AreaIconviewDelegate"]
+- !private ["CSo8NSObject", "CGBitmapInfo"]
+- !private ["CSo8NSObject", "CGColorSpace"]
+- !private ["CSo8NSObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo8NSObject", "CGContext"]
+- !private ["CSo8NSObject", "CGImageAlphaInfo"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UITouch"]
+- ["CSo8NSObject", "UInt8"]
+- !private ["CSo8NSObject", "UnsafeMutablePointer"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "getPixelColorAtLocation"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "location"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "render"]
+- ["CSo8NSObject", "touchesBegan"]
+- ["CSo8NSObject", "touchesEnded"]
+- !private ["PSo16NSObjectProtocol", "CGBitmapInfo"]
+- !private ["PSo16NSObjectProtocol", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo16NSObjectProtocol", "CGContext"]
+- !private ["PSo16NSObjectProtocol", "CGImageAlphaInfo"]
+- !private ["PSo16NSObjectProtocol", "UnsafeMutablePointer"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "getPixelColorAtLocation"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "location"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "render"]
+- ["PSo16NSObjectProtocol", "touchesBegan"]
+- ["PSo16NSObjectProtocol", "touchesEnded"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "byteOrder32Little"]
+- !private ["Ps9OptionSet", "rawValue"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "byteOrder32Little"]
+- !private ["Ps16RawRepresentable", "premultipliedFirst"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "keys"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Vs3Set", "Iterator"]
+- ["Vs3Set", "deinit"]
+- !private ["Vs3Set", "first"]
+- !private ["Ps10SetAlgebra", "Iterator"]
+- !private ["Ps10SetAlgebra", "byteOrder32Little"]
+- !private ["Ps10SetAlgebra", "first"]
+- !private ["Ps10SetAlgebra", "rawValue"]
+- !private ["Vs11SetIterator", "Element"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGBitmapInfo"]
+- !private ["PSo29UIAccessibilityIdentification", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContext"]
+- !private ["PSo29UIAccessibilityIdentification", "CGImageAlphaInfo"]
+- !private ["PSo29UIAccessibilityIdentification", "UnsafeMutablePointer"]
+- ["PSo29UIAccessibilityIdentification", "delegate"]
+- ["PSo29UIAccessibilityIdentification", "getPixelColorAtLocation"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "print"]
+- ["PSo29UIAccessibilityIdentification", "touchesBegan"]
+- ["PSo29UIAccessibilityIdentification", "touchesEnded"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGBitmapInfo"]
+- !private ["PSo12UIAppearance", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo12UIAppearance", "CGContext"]
+- !private ["PSo12UIAppearance", "CGImageAlphaInfo"]
+- !private ["PSo12UIAppearance", "UnsafeMutablePointer"]
+- ["PSo12UIAppearance", "delegate"]
+- ["PSo12UIAppearance", "getPixelColorAtLocation"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "print"]
+- ["PSo12UIAppearance", "touchesBegan"]
+- ["PSo12UIAppearance", "touchesEnded"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGBitmapInfo"]
+- !private ["PSo21UIAppearanceContainer", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo21UIAppearanceContainer", "CGContext"]
+- !private ["PSo21UIAppearanceContainer", "CGImageAlphaInfo"]
+- !private ["PSo21UIAppearanceContainer", "UnsafeMutablePointer"]
+- ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "getPixelColorAtLocation"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "touchesBegan"]
+- ["PSo21UIAppearanceContainer", "touchesEnded"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CGBitmapInfo"]
+- !private ["PSo17UICoordinateSpace", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo17UICoordinateSpace", "CGContext"]
+- !private ["PSo17UICoordinateSpace", "CGImageAlphaInfo"]
+- !private ["PSo17UICoordinateSpace", "UnsafeMutablePointer"]
+- ["PSo17UICoordinateSpace", "delegate"]
+- ["PSo17UICoordinateSpace", "getPixelColorAtLocation"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "print"]
+- ["PSo17UICoordinateSpace", "touchesBegan"]
+- ["PSo17UICoordinateSpace", "touchesEnded"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGBitmapInfo"]
+- !private ["PSo13UIDynamicItem", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo13UIDynamicItem", "CGContext"]
+- !private ["PSo13UIDynamicItem", "CGImageAlphaInfo"]
+- !private ["PSo13UIDynamicItem", "UnsafeMutablePointer"]
+- ["PSo13UIDynamicItem", "delegate"]
+- ["PSo13UIDynamicItem", "getPixelColorAtLocation"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "print"]
+- ["PSo13UIDynamicItem", "touchesBegan"]
+- ["PSo13UIDynamicItem", "touchesEnded"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGBitmapInfo"]
+- !private ["PSo18UIFocusEnvironment", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo18UIFocusEnvironment", "CGContext"]
+- !private ["PSo18UIFocusEnvironment", "CGImageAlphaInfo"]
+- !private ["PSo18UIFocusEnvironment", "UnsafeMutablePointer"]
+- ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "getPixelColorAtLocation"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "touchesBegan"]
+- ["PSo18UIFocusEnvironment", "touchesEnded"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGBitmapInfo"]
+- !private ["PSo11UIFocusItem", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo11UIFocusItem", "CGContext"]
+- !private ["PSo11UIFocusItem", "CGImageAlphaInfo"]
+- !private ["PSo11UIFocusItem", "UnsafeMutablePointer"]
+- ["PSo11UIFocusItem", "delegate"]
+- ["PSo11UIFocusItem", "getPixelColorAtLocation"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["PSo11UIFocusItem", "print"]
+- ["PSo11UIFocusItem", "touchesBegan"]
+- ["PSo11UIFocusItem", "touchesEnded"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIImageView", "AreaIconviewDelegate"]
+- !private ["CSo11UIImageView", "CGBitmapInfo"]
+- !private ["CSo11UIImageView", "CGColorSpace"]
+- !private ["CSo11UIImageView", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo11UIImageView", "CGContext"]
+- !private ["CSo11UIImageView", "CGImageAlphaInfo"]
+- ["CSo11UIImageView", "CGPoint"]
+- ["CSo11UIImageView", "Set"]
+- ["CSo11UIImageView", "UIEvent"]
+- ["CSo11UIImageView", "UITouch"]
+- ["CSo11UIImageView", "UInt8"]
+- !private ["CSo11UIImageView", "UnsafeMutablePointer"]
+- ["CSo11UIImageView", "deinit"]
+- ["CSo11UIImageView", "delegate"]
+- ["CSo11UIImageView", "getPixelColorAtLocation"]
+- ["CSo11UIImageView", "init"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIImageView", "print"]
+- ["CSo11UIImageView", "touchesBegan"]
+- ["CSo11UIImageView", "touchesEnded"]
+- ["CSo11UIImageView", ""]
+- ["CSo11UIResponder", "AreaIconviewDelegate"]
+- !private ["CSo11UIResponder", "CGBitmapInfo"]
+- !private ["CSo11UIResponder", "CGColorSpace"]
+- !private ["CSo11UIResponder", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo11UIResponder", "CGContext"]
+- !private ["CSo11UIResponder", "CGImageAlphaInfo"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "Set"]
+- ["CSo11UIResponder", "UIEvent"]
+- ["CSo11UIResponder", "UITouch"]
+- ["CSo11UIResponder", "UInt8"]
+- !private ["CSo11UIResponder", "UnsafeMutablePointer"]
+- ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "getPixelColorAtLocation"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "touchesBegan"]
+- ["CSo11UIResponder", "touchesEnded"]
+- !private ["PSo30UIResponderStandardEditActions", "CGBitmapInfo"]
+- !private ["PSo30UIResponderStandardEditActions", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo30UIResponderStandardEditActions", "CGContext"]
+- !private ["PSo30UIResponderStandardEditActions", "CGImageAlphaInfo"]
+- !private ["PSo30UIResponderStandardEditActions", "UnsafeMutablePointer"]
+- ["PSo30UIResponderStandardEditActions", "delegate"]
+- ["PSo30UIResponderStandardEditActions", "getPixelColorAtLocation"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "touchesBegan"]
+- ["PSo30UIResponderStandardEditActions", "touchesEnded"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo7UITouch", "deinit"]
+- !private ["CSo7UITouch", "location"]
+- !private ["PSo18UITraitEnvironment", "CGBitmapInfo"]
+- !private ["PSo18UITraitEnvironment", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo18UITraitEnvironment", "CGContext"]
+- !private ["PSo18UITraitEnvironment", "CGImageAlphaInfo"]
+- !private ["PSo18UITraitEnvironment", "UnsafeMutablePointer"]
+- ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "getPixelColorAtLocation"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "touchesBegan"]
+- ["PSo18UITraitEnvironment", "touchesEnded"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "AreaIconviewDelegate"]
+- !private ["CSo6UIView", "CGBitmapInfo"]
+- !private ["CSo6UIView", "CGColorSpace"]
+- !private ["CSo6UIView", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo6UIView", "CGContext"]
+- !private ["CSo6UIView", "CGImageAlphaInfo"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "Set"]
+- ["CSo6UIView", "UIEvent"]
+- ["CSo6UIView", "UITouch"]
+- ["CSo6UIView", "UInt8"]
+- !private ["CSo6UIView", "UnsafeMutablePointer"]
+- ["CSo6UIView", "delegate"]
+- ["CSo6UIView", "getPixelColorAtLocation"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "print"]
+- ["CSo6UIView", "touchesBegan"]
+- ["CSo6UIView", "touchesEnded"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["Sp", "deinit"]
+- !private ["Sp", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGBitmapInfo"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGImageAlphaInfo"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UnsafeMutablePointer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "delegate"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "getPixelColorAtLocation"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "print"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesBegan"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "touchesEnded"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGBitmapInfo"]
+- !private ["Ps9_Hashable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["Ps9_Hashable", "CGContext"]
+- !private ["Ps9_Hashable", "CGImageAlphaInfo"]
+- !private ["Ps9_Hashable", "Iterator"]
+- !private ["Ps9_Hashable", "UnsafeMutablePointer"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "delegate"]
+- !private ["Ps9_Hashable", "first"]
+- ["Ps9_Hashable", "getPixelColorAtLocation"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "location"]
+- !private ["Ps9_Hashable", "premultipliedFirst"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "render"]
+- ["Ps9_Hashable", "touchesBegan"]
+- ["Ps9_Hashable", "touchesEnded"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "keys"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "x"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17ElectionLoginDemo12AreaIconView"
+- "P17ElectionLoginDemo20AreaIconviewDelegate"
+- "Sa"
+- "Sb"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "VSC12CGBitmapInfo"
+- "CSo12CGColorSpace"
+- "CSo9CGContext"
+- "V12CoreGraphics7CGFloat"
+- "OSC16CGImageAlphaInfo"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps16IteratorProtocol"
+- !private "Ps22LazyCollectionProtocol"
+- "Vs17LazyMapCollection"
+- !private "Vs15LazyMapIterator"
+- !private "Ps20LazySequenceProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs11SetIterator"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo7UITouch"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- "Vs6UInt32"
+- !private "Vs6UInt64"
+- "Vs5UInt8"
+- !private "Sc"
+- "Sp"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "1729201e0660061aa26e3f8ae3bc6bca"
