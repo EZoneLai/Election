@@ -1,0 +1,264 @@
+//
+///* Class = "UITabBarItem"; title = "選情資訊"; ObjectID = "2Cx-29-b6m"; */
+//"2Cx-29-b6m.title" = "選情資訊";
+//
+///* Class = "UITabBarItem"; title = "升級"; ObjectID = "2GE-nl-O9B"; */
+//"2GE-nl-O9B.title" = "升級";
+//
+///* Class = "UIButton"; normalTitle = "確定"; ObjectID = "3CR-s0-B4A"; */
+//"3CR-s0-B4A.normalTitle" = "確定";
+//
+///* Class = "UITextField"; placeholder = "帳戶"; ObjectID = "4Gg-eM-k02"; */
+//"4Gg-eM-k02.placeholder" = "帳戶";
+//
+///* Class = "UITextField"; placeholder = "密碼"; ObjectID = "4bE-Lb-Yqq"; */
+//"4bE-Lb-Yqq.placeholder" = "密碼";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "9H6-Oi-dFZ"; */
+//"9H6-Oi-dFZ.normalTitle" = "聯絡我們";
+//
+///* Class = "UILabel"; text = "福利"; ObjectID = "9Ji-dn-HfF"; */
+//"9Ji-dn-HfF.text" = "福利";
+//
+///* Class = "UIButton"; normalTitle = "使用相機"; ObjectID = "9S0-B2-l04"; */
+//"9S0-B2-l04.normalTitle" = "使用相機";
+//
+///* Class = "UILabel"; text = "請選擇支持的候選人"; ObjectID = "9Sp-bZ-eoG"; */
+//"9Sp-bZ-eoG.text" = "請選擇支持的候選人";
+//
+///* Class = "UILabel"; text = "此處將是會員的下一頁"; ObjectID = "AmI-Or-3GI"; */
+//"AmI-Or-3GI.text" = "此處將是會員的下一頁";
+//
+///* Class = "UITextField"; placeholder = "密碼"; ObjectID = "BA9-WJ-qhG"; */
+//"BA9-WJ-qhG.placeholder" = "密碼";
+//
+///* Class = "UITextField"; placeholder = "密碼"; ObjectID = "BL1-18-w7R"; */
+//"BL1-18-w7R.placeholder" = "密碼";
+//
+///* Class = "UILabel"; text = "總部服務公告"; ObjectID = "Bp8-QB-4JQ"; */
+//"Bp8-QB-4JQ.text" = "總部服務公告";
+//
+///* Class = "UITabBarItem"; title = "福利"; ObjectID = "CaI-eQ-U6L"; */
+//"CaI-eQ-U6L.title" = "福利";
+//
+///* Class = "UILabel"; text = "請選擇您所在的縣市"; ObjectID = "CnA-6U-VPy"; */
+//"CnA-6U-VPy.text" = "請選擇您所在的縣市";
+//
+///* Class = "UIButton"; normalTitle = "登入"; ObjectID = "CqG-G8-EO6"; */
+//"CqG-G8-EO6.normalTitle" = "登入";
+//
+///* Class = "UIButton"; normalTitle = "民代主頁"; ObjectID = "Cz8-i0-AMW"; */
+//"Cz8-i0-AMW.normalTitle" = "民代主頁";
+//
+///* Class = "UIButton"; normalTitle = "使用相簿"; ObjectID = "E9U-RD-P5T"; */
+//"E9U-RD-P5T.normalTitle" = "使用相簿";
+//
+///* Class = "UILabel"; text = "插件"; ObjectID = "Eg0-t0-Dkf"; */
+//"Eg0-t0-Dkf.text" = "插件";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "FUt-Zf-JsS"; */
+//"FUt-Zf-JsS.normalTitle" = "聯絡我們";
+//
+///* Class = "UIButton"; normalTitle = "確定"; ObjectID = "GpL-ai-WuC"; */
+//"GpL-ai-WuC.normalTitle" = "確定";
+//
+///* Class = "UISegmentedControl"; HKs-g7-smu.segmentTitles[0] = "會員"; ObjectID = "HKs-g7-smu"; */
+//"HKs-g7-smu.segmentTitles[0]" = "會員";
+//
+///* Class = "UISegmentedControl"; HKs-g7-smu.segmentTitles[1] = "候選人"; ObjectID = "HKs-g7-smu"; */
+//"HKs-g7-smu.segmentTitles[1]" = "候選人";
+//
+///* Class = "UISegmentedControl"; HKs-g7-smu.segmentTitles[2] = "助理"; ObjectID = "HKs-g7-smu"; */
+//"HKs-g7-smu.segmentTitles[2]" = "助理";
+//
+///* Class = "UILabel"; text = "請選擇您想購買的升級功能"; ObjectID = "IAJ-ck-Lg4"; */
+//"IAJ-ck-Lg4.text" = "請選擇您想購買的升級功能";
+//
+///* Class = "UILabel"; text = "請選擇您的職業類別"; ObjectID = "KC5-G3-7EF"; */
+//"KC5-G3-7EF.text" = "請選擇您的職業類別";
+//
+///* Class = "UITabBarItem"; title = "插件"; ObjectID = "Kh4-iZ-o5H"; */
+//"Kh4-iZ-o5H.title" = "插件";
+//
+///* Class = "UIButton"; normalTitle = "確定"; ObjectID = "MFa-UG-5Zq"; */
+//"MFa-UG-5Zq.normalTitle" = "確定";
+//
+///* Class = "UIButton"; normalTitle = "<"; ObjectID = "MQi-3Y-AHg"; */
+//"MQi-3Y-AHg.normalTitle" = "<";
+//
+///* Class = "UILabel"; text = "細節設定"; ObjectID = "MZl-pj-t6a"; */
+//"MZl-pj-t6a.text" = "細節設定";
+//
+///* Class = "UIButton"; normalTitle = "里長主頁"; ObjectID = "O60-lm-n4n"; */
+//"O60-lm-n4n.normalTitle" = "里長主頁";
+//
+///* Class = "UILabel"; text = "此處將是會員的下一頁"; ObjectID = "OxZ-Xy-EYn"; */
+//"OxZ-Xy-EYn.text" = "此處將是會員的下一頁";
+//
+///* Class = "UIButton"; normalTitle = "選擇地區"; ObjectID = "Pgt-q9-bG3"; */
+//"Pgt-q9-bG3.normalTitle" = "選擇地區";
+//
+///* Class = "UITabBarItem"; title = "話術輯"; ObjectID = "PpE-Dj-vlV"; */
+//"PpE-Dj-vlV.title" = "話術輯";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "Q1i-F1-Z8P"; */
+//"Q1i-F1-Z8P.normalTitle" = "聯絡我們";
+//
+///* Class = "UIButton"; normalTitle = " Q R Code "; ObjectID = "QkS-vh-mA3"; */
+//"QkS-vh-mA3.normalTitle" = " Q R Code ";
+//
+///* Class = "UITabBarItem"; title = "插件"; ObjectID = "Rma-K9-nPi"; */
+//"Rma-K9-nPi.title" = "插件";
+//
+///* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "SB4-Mv-Yg3"; */
+//"SB4-Mv-Yg3.normalTitle" = "下一步";
+//
+///* Class = "UIButton"; normalTitle = "選擇行業"; ObjectID = "SME-qc-6du"; */
+//"SME-qc-6du.normalTitle" = "選擇行業";
+//
+///* Class = "UITabBarItem"; title = "政策"; ObjectID = "Sx7-rV-JId"; */
+//"Sx7-rV-JId.title" = "政策";
+//
+///* Class = "UILabel"; text = "假設登入者為會員"; ObjectID = "TgG-Rs-j67"; */
+//"TgG-Rs-j67.text" = "假設登入者為會員";
+//
+///* Class = "UITabBarItem"; title = "發送通知"; ObjectID = "UVV-88-Way"; */
+//"UVV-88-Way.title" = "發送通知";
+//
+///* Class = "UILabel"; text = "請選擇您想購買的升級功能"; ObjectID = "UcQ-9L-bjG"; */
+//"UcQ-9L-bjG.text" = "請選擇您想購買的升級功能";
+//
+///* Class = "UIButton"; normalTitle = "QR Code 掃瞄"; ObjectID = "VNV-We-bwz"; */
+//"VNV-We-bwz.normalTitle" = "QR Code 掃瞄";
+//
+///* Class = "UIButton"; normalTitle = "加入我們"; ObjectID = "WF4-JJ-pD4"; */
+//"WF4-JJ-pD4.normalTitle" = "加入我們";
+//
+///* Class = "UITabBarItem"; title = "留言板"; ObjectID = "WVj-tS-t2U"; */
+//"WVj-tS-t2U.title" = "留言板";
+//
+///* Class = "UITabBarItem"; title = "區域圖示"; ObjectID = "XBF-CL-9N2"; */
+//"XBF-CL-9N2.title" = "區域圖示";
+//
+///* Class = "UITextField"; placeholder = "帳戶/信箱"; ObjectID = "XYY-GY-FWZ"; */
+//"XYY-GY-FWZ.placeholder" = "帳戶/信箱";
+//
+///* Class = "UILabel"; text = "政策"; ObjectID = "Yug-Gy-GuF"; */
+//"Yug-Gy-GuF.text" = "政策";
+//
+///* Class = "UIButton"; normalTitle = "立委主頁"; ObjectID = "ZQk-jF-eQ8"; */
+//"ZQk-jF-eQ8.normalTitle" = "立委主頁";
+//
+///* Class = "UITextField"; placeholder = "姓名"; ObjectID = "ZWH-08-knP"; */
+//"ZWH-08-knP.placeholder" = "姓名";
+//
+///* Class = "UILabel"; text = "請選擇您想升級的角色類型"; ObjectID = "aUL-Bf-QzG"; */
+//"aUL-Bf-QzG.text" = "請選擇您想升級的角色類型";
+//
+///* Class = "UITabBarItem"; title = "關係圖示"; ObjectID = "ah0-Ic-oRI"; */
+//"ah0-Ic-oRI.title" = "關係圖示";
+//
+///* Class = "UIButton"; normalTitle = "已有帳號"; ObjectID = "aoi-Zg-j3J"; */
+//"aoi-Zg-j3J.normalTitle" = "已有帳號";
+//
+///* Class = "UILabel"; text = "請選擇您想支持的類型"; ObjectID = "ar5-NX-95B"; */
+//"ar5-NX-95B.text" = "請選擇您想支持的類型";
+//
+///* Class = "UILabel"; text = "請對準方框"; ObjectID = "awd-iw-Mcc"; */
+//"awd-iw-Mcc.text" = "請對準方框";
+//
+///* Class = "UIButton"; normalTitle = "進入系統"; ObjectID = "c95-MM-y9F"; */
+//"c95-MM-y9F.normalTitle" = "進入系統";
+//
+///* Class = "UIButton"; normalTitle = ">"; ObjectID = "cEY-kK-s06"; */
+//"cEY-kK-s06.normalTitle" = ">";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "cQg-oI-PfI"; */
+//"cQg-oI-PfI.normalTitle" = "聯絡我們";
+//
+///* Class = "UILabel"; text = "假設登入者為會員"; ObjectID = "gHi-LY-gKS"; */
+//"gHi-LY-gKS.text" = "假設登入者為會員";
+//
+///* Class = "UITabBarItem"; title = "區域圖示"; ObjectID = "gS5-ju-NS4"; */
+//"gS5-ju-NS4.title" = "區域圖示";
+//
+///* Class = "UILabel"; text = "總部服務公告"; ObjectID = "gaR-52-ATZ"; */
+//"gaR-52-ATZ.text" = "總部服務公告";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "hJv-us-aof"; */
+//"hJv-us-aof.normalTitle" = "聯絡我們";
+//
+///* Class = "UITabBarItem"; title = "選民留言板"; ObjectID = "iIc-ih-bHO"; */
+//"iIc-ih-bHO.title" = "選民留言板";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "j0w-fD-FZH"; */
+//"j0w-fD-FZH.normalTitle" = "聯絡我們";
+//
+///* Class = "UIButton"; normalTitle = "議員主頁"; ObjectID = "j2i-ia-aS0"; */
+//"j2i-ia-aS0.normalTitle" = "議員主頁";
+//
+///* Class = "UITabBarItem"; title = "緊急事件"; ObjectID = "jj3-86-lvL"; */
+//"jj3-86-lvL.title" = "緊急事件";
+//
+///* Class = "UISegmentedControl"; k1d-lV-w43.segmentTitles[0] = "男"; ObjectID = "k1d-lV-w43"; */
+//"k1d-lV-w43.segmentTitles[0]" = "男";
+//
+///* Class = "UISegmentedControl"; k1d-lV-w43.segmentTitles[1] = "女"; ObjectID = "k1d-lV-w43"; */
+//"k1d-lV-w43.segmentTitles[1]" = "女";
+//
+///* Class = "UILabel"; text = "假設登入者為會員"; ObjectID = "kwB-Cr-YaX"; */
+//"kwB-Cr-YaX.text" = "假設登入者為會員";
+//
+///* Class = "UILabel"; text = "請選擇您所在的里"; ObjectID = "mMP-Rz-YRj"; */
+//"mMP-Rz-YRj.text" = "請選擇您所在的里";
+//
+///* Class = "UIButton"; normalTitle = "聯絡我們"; ObjectID = "miM-60-fEb"; */
+//"miM-60-fEb.normalTitle" = "聯絡我們";
+//
+///* Class = "UITabBarItem"; title = "政策"; ObjectID = "nxs-cn-nrp"; */
+//"nxs-cn-nrp.title" = "政策";
+//
+///* Class = "UILabel"; text = "請選擇您所在的區"; ObjectID = "oWR-za-HNa"; */
+//"oWR-za-HNa.text" = "請選擇您所在的區";
+//
+///* Class = "UITextField"; placeholder = "電話號碼"; ObjectID = "p8V-02-hWb"; */
+//"p8V-02-hWb.placeholder" = "電話號碼";
+//
+///* Class = "UILabel"; text = "總部服務公告"; ObjectID = "ppq-HB-Uxz"; */
+//"ppq-HB-Uxz.text" = "總部服務公告";
+//
+///* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "rFH-Gl-Qcr"; */
+//"rFH-Gl-Qcr.normalTitle" = "下一步";
+//
+///* Class = "UILabel"; text = "歡迎回來"; ObjectID = "sOP-hW-u95"; */
+//"sOP-hW-u95.text" = "歡迎回來";
+//
+///* Class = "UILabel"; text = "此處將是會員的下一頁"; ObjectID = "saA-mt-XNy"; */
+//"saA-mt-XNy.text" = "此處將是會員的下一頁";
+//
+///* Class = "UITabBarItem"; title = "服務團隊"; ObjectID = "t1m-Dh-aPO"; */
+//"t1m-Dh-aPO.title" = "服務團隊";
+//
+///* Class = "UIButton"; normalTitle = "確定"; ObjectID = "tfn-1j-nbi"; */
+//"tfn-1j-nbi.normalTitle" = "確定";
+//
+///* Class = "UITabBarItem"; title = "福利"; ObjectID = "uio-Wc-uuP"; */
+//"uio-Wc-uuP.title" = "福利";
+//
+///* Class = "UITabBarItem"; title = "選情資訊"; ObjectID = "ulO-am-Z32"; */
+//"ulO-am-Z32.title" = "選情資訊";
+//
+///* Class = "UILabel"; text = "民國：年次"; ObjectID = "y33-nJ-9lT"; */
+//"y33-nJ-9lT.text" = "民國：年次";
+//
+///* Class = "UITabBarItem"; title = "區域版圖"; ObjectID = "zD6-M4-olO"; */
+//"zD6-M4-olO.title" = "區域版圖";
+//
+///* Class = "UITabBarItem"; title = "升級"; ObjectID = "zJu-Vb-Le2"; */
+//"zJu-Vb-Le2.title" = "升級";
+//
+///* Class = "UITextField"; placeholder = "帳戶"; ObjectID = "zmb-NZ-PmM"; */
+//"zmb-NZ-PmM.placeholder" = "帳戶";
+//
+///* Class = "UILabel"; text = "請選擇支持的候選人"; ObjectID = "znc-e5-kqs"; */
+//"znc-e5-kqs.text" = "請選擇支持的候選人";

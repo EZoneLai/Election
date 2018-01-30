@@ -1,0 +1,73 @@
+//
+//  AnnouncementViewController.swift
+//  ElectionLoginDemo
+//
+//  Created by EZoneLai Lai on 2017/4/3.
+//  Copyright © 2017年 EZoneLai. All rights reserved.
+//
+
+import UIKit
+
+class AnnouncementViewController: myViewController, UIWebViewDelegate{
+
+    
+    @IBOutlet weak var annoucementWebView: UIWebView!
+    
+    @IBOutlet weak var indicatorView: UIActivityIndicatorView!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //self.appdelegate.generic = Generic(type: self.appdelegate.supportedType)
+
+        self.annoucementWebView.delegate = self
+        print("我正在秀annoucementWeb網頁\(self.appdelegate.generic.annoucementWeb)")
+        self.annoucementWebView.loadRequest(
+            URLRequest(url:
+                URL(string: self.appdelegate.generic.annoucementWeb)!,
+                //URL(string: "http://www.yahoo.com.tw")!
+                //URL(string: "http://twin.taipei/discuz/upload")!,
+                cachePolicy: .reloadIgnoringCacheData,
+                timeoutInterval: 60
+            )
+        )
+ 
+        // Do any additional setup after loading the view.
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        // MARK: - 套用myController的返回鍵設定
+        //自訂的標題
+        self.setMyTabBarTitleAndBackTitle(title: "服務公告", backTitle: "ㄑ回主頁", barColor: "mainColor")
+        indicatorView.stopAnimating()
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func webViewDidStartLoad(_ webView: UIWebView) {
+        indicatorView.startAnimating()
+        print("start loading")
+    }
+    
+    func webViewDidFinishLoad(_ webView: UIWebView) {
+        indicatorView.stopAnimating()
+        print("end loading")
+    }
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}

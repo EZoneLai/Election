@@ -7,21 +7,176 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F1CEF801E4DC5AE004C8A60 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CEF7F1E4DC5AE004C8A60 /* LoginViewController.swift */; };
+		8F1CEF821E4DC5C7004C8A60 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CEF811E4DC5C7004C8A60 /* SignInViewController.swift */; };
+		8F37617A1E76879400136869 /* TaoyuanCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3761791E76879400136869 /* TaoyuanCityView.xib */; };
+		8F591B071E5C3346000DDC90 /* mysqlnames.md in Sources */ = {isa = PBXBuildFile; fileRef = 8F591B061E5C3346000DDC90 /* mysqlnames.md */; };
+		8F7472571E4DCB2C00317417 /* convetion.md in Sources */ = {isa = PBXBuildFile; fileRef = 8F7472561E4DCB2C00317417 /* convetion.md */; };
 		8F9C25231E4AF28300835A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C25221E4AF28300835A91 /* AppDelegate.swift */; };
-		8F9C25251E4AF28300835A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C25241E4AF28300835A91 /* ViewController.swift */; };
+		8F9C25251E4AF28300835A91 /* BufferController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C25241E4AF28300835A91 /* BufferController.swift */; };
 		8F9C25281E4AF28300835A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C25261E4AF28300835A91 /* Main.storyboard */; };
 		8F9C252A1E4AF28300835A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C25291E4AF28300835A91 /* Assets.xcassets */; };
 		8F9C252D1E4AF28300835A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C252B1E4AF28300835A91 /* LaunchScreen.storyboard */; };
+		8F9C25351E4B182400835A91 /* chart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C25341E4B182400835A91 /* chart.storyboard */; };
+		8FA8081C1E72B6CF004779B8 /* popQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8081B1E72B6CF004779B8 /* popQRCodeViewController.swift */; };
+		8FB413E81E76C67900D89BB8 /* TaipeiCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB413E71E76C67900D89BB8 /* TaipeiCityView.xib */; };
+		8FB413EA1E76C6A100D89BB8 /* NewTaipeiCityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FB413E91E76C6A100D89BB8 /* NewTaipeiCityView.xib */; };
+		8FB7F3FF1E5EAEEB00C3546E /* popWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB7F3FE1E5EAEEB00C3546E /* popWindowController.swift */; };
+		8FC482811E6F290F00D37A15 /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC482801E6F290F00D37A15 /* QRReaderViewController.swift */; };
+		8FCBDC1C1E54731000517B8E /* FirstEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBDC1B1E54731000517B8E /* FirstEntryViewController.swift */; };
+		8FCBDC201E547D8900517B8E /* CitysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBDC1F1E547D8900517B8E /* CitysViewController.swift */; };
+		8FCBDC221E54923F00517B8E /* OccupationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBDC211E54923F00517B8E /* OccupationViewController.swift */; };
+		8FCBDC241E54965700517B8E /* VillageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBDC231E54965700517B8E /* VillageViewController.swift */; };
+		8FD4BE1B1E778DC50008EAF8 /* taiwan_area.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FD4BE1A1E778DC50008EAF8 /* taiwan_area.xib */; };
+		8FD4BE211E77A2C50008EAF8 /* taiwan_area.json in Resources */ = {isa = PBXBuildFile; fileRef = 8FD4BE201E7798020008EAF8 /* taiwan_area.json */; };
+		8FD655E01E63FEBD00AE8907 /* AreaIconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD655DF1E63FEBD00AE8907 /* AreaIconViewController.swift */; };
+		8FD655E21E640B6200AE8907 /* AreaIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD655E11E640B6200AE8907 /* AreaIconView.swift */; };
+		8FD655E41E641AB600AE8907 /* taiwan_area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD655E31E641AB600AE8907 /* taiwan_area.swift */; };
+		8FD84F151E57FA9F004E8AF2 /* DistrictViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD84F141E57FA9F004E8AF2 /* DistrictViewController.swift */; };
+		8FDF3F5D1E5588E80021E240 /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF3F5C1E5588E80021E240 /* myViewController.swift */; };
+		8FDF3F631E55A0800021E240 /* original.data in Resources */ = {isa = PBXBuildFile; fileRef = 8FDF3F621E55A0800021E240 /* original.data */; };
+		8FDF3F651E55A0BF0021E240 /* 桃園區.data in Resources */ = {isa = PBXBuildFile; fileRef = 8FDF3F641E55A0BF0021E240 /* 桃園區.data */; };
+		8FDF48C31E531C0000EECC86 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDF48C21E531C0000EECC86 /* MainViewController.swift */; };
+		8FEA80D91E694E4000970C21 /* ReturnLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA80D81E694E4000970C21 /* ReturnLoginViewController.swift */; };
+		A40333B91EC9D6440045A82B /* SelectSupportedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40333B81EC9D6440045A82B /* SelectSupportedViewController.swift */; };
+		A40333BB1EC9E2F10045A82B /* SetSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40333BA1EC9E2F10045A82B /* SetSupportViewController.swift */; };
+		A406C53E1ED577B800F217B7 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406C53D1ED577B800F217B7 /* NetWork.swift */; };
+		A406C5421ED58C0800F217B7 /* generic_data.json in Resources */ = {isa = PBXBuildFile; fileRef = A406C5411ED581E000F217B7 /* generic_data.json */; };
+		A40A32281F7B50F0006F4FE5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A32271F7B50F0006F4FE5 /* TestViewController.swift */; };
+		A40D68461ECAA40700C8A7E8 /* SupportListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D68451ECAA40700C8A7E8 /* SupportListViewController.swift */; };
+		A40D684A1ECAB01300C8A7E8 /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40D68491ECAB01300C8A7E8 /* Generic.swift */; };
+		A40F80921EA3C7B8008DBED0 /* 中壢區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80911EA3C7B8008DBED0 /* 中壢區.data */; };
+		A40F80941EA3C805008DBED0 /* 平鎮區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80931EA3C805008DBED0 /* 平鎮區.data */; };
+		A40F80961EA3C831008DBED0 /* 八德區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80951EA3C831008DBED0 /* 八德區.data */; };
+		A40F80981EA3C84F008DBED0 /* 楊梅區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80971EA3C84F008DBED0 /* 楊梅區.data */; };
+		A40F809A1EA3C86C008DBED0 /* 蘆竹區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80991EA3C86C008DBED0 /* 蘆竹區.data */; };
+		A40F809C1EA3C885008DBED0 /* 大溪區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F809B1EA3C885008DBED0 /* 大溪區.data */; };
+		A40F809E1EA3C8A1008DBED0 /* 大園區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F809D1EA3C8A1008DBED0 /* 大園區.data */; };
+		A40F80A01EA3C8BE008DBED0 /* 龜山區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F809F1EA3C8BE008DBED0 /* 龜山區.data */; };
+		A40F80A21EA3C8E5008DBED0 /* 龍潭區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80A11EA3C8E5008DBED0 /* 龍潭區.data */; };
+		A40F80A41EA3C90C008DBED0 /* 新屋區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80A31EA3C90C008DBED0 /* 新屋區.data */; };
+		A40F80A61EA3C924008DBED0 /* 觀音區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80A51EA3C924008DBED0 /* 觀音區.data */; };
+		A40F80A81EA3C939008DBED0 /* 復興區.data in Resources */ = {isa = PBXBuildFile; fileRef = A40F80A71EA3C939008DBED0 /* 復興區.data */; };
+		A41CF1971EFA184000E4A819 /* RelationD3jsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41CF1961EFA184000E4A819 /* RelationD3jsViewController.swift */; };
+		A41E7F651EC2D34B00997EFA /* PushNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E7F641EC2D34B00997EFA /* PushNoticeViewController.swift */; };
+		A41E7F671EC2DC5900997EFA /* ManuscriptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E7F661EC2DC5900997EFA /* ManuscriptViewController.swift */; };
+		A41E7F691EC2EF7100997EFA /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E7F681EC2EF7100997EFA /* InformationViewController.swift */; };
+		A42247AB1E9235EF00D6A20F /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247AA1E9235EF00D6A20F /* AnnouncementViewController.swift */; };
+		A42247AD1E92403500D6A20F /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247AC1E92403500D6A20F /* EmergencyViewController.swift */; };
+		A42247B11E9245FA00D6A20F /* AidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247B01E9245FA00D6A20F /* AidesViewController.swift */; };
+		A42247B31E92480000D6A20F /* PublicOpinionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247B21E92480000D6A20F /* PublicOpinionViewController.swift */; };
+		A42247B51E924BEE00D6A20F /* PolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247B41E924BEE00D6A20F /* PolicyViewController.swift */; };
+		A42247B71E9265B200D6A20F /* UpgradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247B61E9265B200D6A20F /* UpgradeViewController.swift */; };
+		A42247B91E927C4300D6A20F /* AgentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247B81E927C4300D6A20F /* AgentViewController.swift */; };
+		A42247BB1E927D8600D6A20F /* CandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42247BA1E927D8600D6A20F /* CandidateViewController.swift */; };
+		A435A0241F44281000598A83 /* SetDesktopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A435A0231F44281000598A83 /* SetDesktopViewController.swift */; };
+		A4418A8A1F234C8B005FD485 /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4418A891F234C8B005FD485 /* LineView.swift */; };
+		A44B76601F0258F800C6B6A5 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44B765F1F0258F800C6B6A5 /* ContactViewController.swift */; };
+		A44FDA7A1F4EB10600C6C8E2 /* my_cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44FDA791F4EB10600C6C8E2 /* my_cloud.swift */; };
+		A495A4B81F35D0D000548D91 /* FLAG.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495A4B71F35D0D000548D91 /* FLAG.swift */; };
+		A4B0BFEE1EA79CBC006DED58 /* camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B0BFED1EA79CBC006DED58 /* camera.storyboard */; };
+		A4B0BFF01EA79CF6006DED58 /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0BFEF1EA79CF6006DED58 /* camera.swift */; };
+		A4B3EEB31E9CF95A008ED499 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3EEB21E9CF95A008ED499 /* HomePageViewController.swift */; };
+		A4CADE3E1F1F74D500F8E547 /* Entry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4CADE3D1F1F74D500F8E547 /* Entry.storyboard */; };
+		A4CADE401F209B1000F8E547 /* SetUserImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CADE3F1F209B1000F8E547 /* SetUserImageViewController.swift */; };
+		A4D3F5C91F70C62100712A73 /* Emergency2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F5C81F70C62100712A73 /* Emergency2ViewController.swift */; };
+		A4D3F5CB1F70C63500712A73 /* Emergency3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F5CA1F70C63500712A73 /* Emergency3ViewController.swift */; };
+		A4D3F5CD1F70C64800712A73 /* Emergency4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D3F5CC1F70C64800712A73 /* Emergency4ViewController.swift */; };
+		A4D4FE031F3F7744005A017C /* my_textfiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4FE021F3F7744005A017C /* my_textfiled.swift */; };
+		A4DE93EF1EA73923008BDC19 /* SetPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DE93EE1EA73923008BDC19 /* SetPhotoViewController.swift */; };
+		A4E513241E9B8780002E2CB2 /* RelationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E513231E9B8780002E2CB2 /* RelationViewController.swift */; };
+		A4E513261E9B887E002E2CB2 /* PluginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E513251E9B887E002E2CB2 /* PluginViewController.swift */; };
+		A4E513281E9B88A1002E2CB2 /* SetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E513271E9B88A1002E2CB2 /* SetUpViewController.swift */; };
+		A4F17FD11F61162E00F7A730 /* BufferView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4F17FD01F61162E00F7A730 /* BufferView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F9C251F1E4AF28300835A91 /* ElectionLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectionLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1CEF7F1E4DC5AE004C8A60 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F1CEF811E4DC5C7004C8A60 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8F3761791E76879400136869 /* TaoyuanCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaoyuanCityView.xib; sourceTree = "<group>"; };
+		8F591B061E5C3346000DDC90 /* mysqlnames.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = mysqlnames.md; sourceTree = "<group>"; };
+		8F7472561E4DCB2C00317417 /* convetion.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = convetion.md; sourceTree = "<group>"; };
+		8F9C251F1E4AF28300835A91 /* twin.taipei.Election.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twin.taipei.Election.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9C25221E4AF28300835A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F9C25241E4AF28300835A91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F9C25241E4AF28300835A91 /* BufferController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferController.swift; sourceTree = "<group>"; };
 		8F9C25271E4AF28300835A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F9C25291E4AF28300835A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9C252C1E4AF28300835A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9C252E1E4AF28300835A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9C25341E4B182400835A91 /* chart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = chart.storyboard; sourceTree = "<group>"; };
+		8FA8081B1E72B6CF004779B8 /* popQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popQRCodeViewController.swift; sourceTree = "<group>"; };
+		8FB413E71E76C67900D89BB8 /* TaipeiCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaipeiCityView.xib; sourceTree = "<group>"; };
+		8FB413E91E76C6A100D89BB8 /* NewTaipeiCityView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTaipeiCityView.xib; sourceTree = "<group>"; };
+		8FB7F3FE1E5EAEEB00C3546E /* popWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popWindowController.swift; sourceTree = "<group>"; };
+		8FC482801E6F290F00D37A15 /* QRReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		8FCBDC1B1E54731000517B8E /* FirstEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstEntryViewController.swift; sourceTree = "<group>"; };
+		8FCBDC1F1E547D8900517B8E /* CitysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitysViewController.swift; sourceTree = "<group>"; };
+		8FCBDC211E54923F00517B8E /* OccupationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OccupationViewController.swift; sourceTree = "<group>"; };
+		8FCBDC231E54965700517B8E /* VillageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VillageViewController.swift; sourceTree = "<group>"; };
+		8FD4BE1A1E778DC50008EAF8 /* taiwan_area.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = taiwan_area.xib; sourceTree = "<group>"; };
+		8FD4BE201E7798020008EAF8 /* taiwan_area.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = taiwan_area.json; sourceTree = "<group>"; };
+		8FD655DF1E63FEBD00AE8907 /* AreaIconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaIconViewController.swift; sourceTree = "<group>"; };
+		8FD655E11E640B6200AE8907 /* AreaIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaIconView.swift; sourceTree = "<group>"; };
+		8FD655E31E641AB600AE8907 /* taiwan_area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = taiwan_area.swift; sourceTree = "<group>"; };
+		8FD84F141E57FA9F004E8AF2 /* DistrictViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictViewController.swift; sourceTree = "<group>"; };
+		8FDF3F5C1E5588E80021E240 /* myViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
+		8FDF3F621E55A0800021E240 /* original.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = original.data; sourceTree = "<group>"; };
+		8FDF3F641E55A0BF0021E240 /* 桃園區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "桃園區.data"; sourceTree = "<group>"; };
+		8FDF48C21E531C0000EECC86 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8FEA80D81E694E4000970C21 /* ReturnLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnLoginViewController.swift; sourceTree = "<group>"; };
+		A40333B81EC9D6440045A82B /* SelectSupportedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSupportedViewController.swift; sourceTree = "<group>"; };
+		A40333BA1EC9E2F10045A82B /* SetSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetSupportViewController.swift; sourceTree = "<group>"; };
+		A406C53D1ED577B800F217B7 /* NetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		A406C5411ED581E000F217B7 /* generic_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = generic_data.json; sourceTree = "<group>"; };
+		A40A32271F7B50F0006F4FE5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A40D68451ECAA40700C8A7E8 /* SupportListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportListViewController.swift; sourceTree = "<group>"; };
+		A40D68491ECAB01300C8A7E8 /* Generic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generic.swift; sourceTree = "<group>"; };
+		A40F80911EA3C7B8008DBED0 /* 中壢區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "中壢區.data"; sourceTree = "<group>"; };
+		A40F80931EA3C805008DBED0 /* 平鎮區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "平鎮區.data"; sourceTree = "<group>"; };
+		A40F80951EA3C831008DBED0 /* 八德區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "八德區.data"; sourceTree = "<group>"; };
+		A40F80971EA3C84F008DBED0 /* 楊梅區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "楊梅區.data"; sourceTree = "<group>"; };
+		A40F80991EA3C86C008DBED0 /* 蘆竹區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "蘆竹區.data"; sourceTree = "<group>"; };
+		A40F809B1EA3C885008DBED0 /* 大溪區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大溪區.data"; sourceTree = "<group>"; };
+		A40F809D1EA3C8A1008DBED0 /* 大園區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "大園區.data"; sourceTree = "<group>"; };
+		A40F809F1EA3C8BE008DBED0 /* 龜山區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "龜山區.data"; sourceTree = "<group>"; };
+		A40F80A11EA3C8E5008DBED0 /* 龍潭區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "龍潭區.data"; sourceTree = "<group>"; };
+		A40F80A31EA3C90C008DBED0 /* 新屋區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "新屋區.data"; sourceTree = "<group>"; };
+		A40F80A51EA3C924008DBED0 /* 觀音區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "觀音區.data"; sourceTree = "<group>"; };
+		A40F80A71EA3C939008DBED0 /* 復興區.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "復興區.data"; sourceTree = "<group>"; };
+		A41CF1961EFA184000E4A819 /* RelationD3jsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationD3jsViewController.swift; sourceTree = "<group>"; };
+		A41E7F631EC05EFB00997EFA /* twin.taipei.Election.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = twin.taipei.Election.entitlements; sourceTree = "<group>"; };
+		A41E7F641EC2D34B00997EFA /* PushNoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNoticeViewController.swift; sourceTree = "<group>"; };
+		A41E7F661EC2DC5900997EFA /* ManuscriptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuscriptViewController.swift; sourceTree = "<group>"; };
+		A41E7F681EC2EF7100997EFA /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		A42247AA1E9235EF00D6A20F /* AnnouncementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; };
+		A42247AC1E92403500D6A20F /* EmergencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		A42247B01E9245FA00D6A20F /* AidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AidesViewController.swift; sourceTree = "<group>"; };
+		A42247B21E92480000D6A20F /* PublicOpinionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicOpinionViewController.swift; sourceTree = "<group>"; };
+		A42247B41E924BEE00D6A20F /* PolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolicyViewController.swift; sourceTree = "<group>"; };
+		A42247B61E9265B200D6A20F /* UpgradeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpgradeViewController.swift; sourceTree = "<group>"; };
+		A42247B81E927C4300D6A20F /* AgentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentViewController.swift; sourceTree = "<group>"; };
+		A42247BA1E927D8600D6A20F /* CandidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateViewController.swift; sourceTree = "<group>"; };
+		A435A0231F44281000598A83 /* SetDesktopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetDesktopViewController.swift; sourceTree = "<group>"; };
+		A4418A891F234C8B005FD485 /* LineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
+		A44B765F1F0258F800C6B6A5 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		A44FDA791F4EB10600C6C8E2 /* my_cloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_cloud.swift; sourceTree = "<group>"; };
+		A45A01341EEBDB9E009B5EBF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		A45A01351EEBDB9E009B5EBF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A495A4B71F35D0D000548D91 /* FLAG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLAG.swift; sourceTree = "<group>"; };
+		A4B0BFED1EA79CBC006DED58 /* camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = camera.storyboard; sourceTree = "<group>"; };
+		A4B0BFEF1EA79CF6006DED58 /* camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
+		A4B3EEB21E9CF95A008ED499 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		A4CADE3D1F1F74D500F8E547 /* Entry.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Entry.storyboard; sourceTree = "<group>"; };
+		A4CADE3F1F209B1000F8E547 /* SetUserImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUserImageViewController.swift; sourceTree = "<group>"; };
+		A4D3F5C81F70C62100712A73 /* Emergency2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emergency2ViewController.swift; sourceTree = "<group>"; };
+		A4D3F5CA1F70C63500712A73 /* Emergency3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emergency3ViewController.swift; sourceTree = "<group>"; };
+		A4D3F5CC1F70C64800712A73 /* Emergency4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emergency4ViewController.swift; sourceTree = "<group>"; };
+		A4D4FE021F3F7744005A017C /* my_textfiled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = my_textfiled.swift; sourceTree = "<group>"; };
+		A4DE93EE1EA73923008BDC19 /* SetPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPhotoViewController.swift; sourceTree = "<group>"; };
+		A4E513231E9B8780002E2CB2 /* RelationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationViewController.swift; sourceTree = "<group>"; };
+		A4E513251E9B887E002E2CB2 /* PluginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PluginViewController.swift; sourceTree = "<group>"; };
+		A4E513271E9B88A1002E2CB2 /* SetUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpViewController.swift; sourceTree = "<group>"; };
+		A4F17FD01F61162E00F7A730 /* BufferView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BufferView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +193,7 @@
 		8F9C25161E4AF28300835A91 = {
 			isa = PBXGroup;
 			children = (
+				A41E7F631EC05EFB00997EFA /* twin.taipei.Election.entitlements */,
 				8F9C25211E4AF28300835A91 /* ElectionLoginDemo */,
 				8F9C25201E4AF28300835A91 /* Products */,
 			);
@@ -46,7 +202,7 @@
 		8F9C25201E4AF28300835A91 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F9C251F1E4AF28300835A91 /* ElectionLoginDemo.app */,
+				8F9C251F1E4AF28300835A91 /* twin.taipei.Election.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,22 +210,130 @@
 		8F9C25211E4AF28300835A91 /* ElectionLoginDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8F9C25221E4AF28300835A91 /* AppDelegate.swift */,
-				8F9C25241E4AF28300835A91 /* ViewController.swift */,
+				8FDF3F5F1E559FC80021E240 /* data */,
+				8FDF3F571E557EDD0021E240 /* Tools */,
+				8FDF3F5E1E558CA70021E240 /* Entry */,
+				A4CADE3D1F1F74D500F8E547 /* Entry.storyboard */,
 				8F9C25261E4AF28300835A91 /* Main.storyboard */,
+				8F9C25221E4AF28300835A91 /* AppDelegate.swift */,
+				A40333B81EC9D6440045A82B /* SelectSupportedViewController.swift */,
+				8FDF48C21E531C0000EECC86 /* MainViewController.swift */,
+				A42247B41E924BEE00D6A20F /* PolicyViewController.swift */,
+				A42247AA1E9235EF00D6A20F /* AnnouncementViewController.swift */,
+				A42247B01E9245FA00D6A20F /* AidesViewController.swift */,
+				8FD655DF1E63FEBD00AE8907 /* AreaIconViewController.swift */,
+				A4E513231E9B8780002E2CB2 /* RelationViewController.swift */,
+				A41CF1961EFA184000E4A819 /* RelationD3jsViewController.swift */,
+				A42247AC1E92403500D6A20F /* EmergencyViewController.swift */,
+				A4D3F5C81F70C62100712A73 /* Emergency2ViewController.swift */,
+				A4D3F5CA1F70C63500712A73 /* Emergency3ViewController.swift */,
+				A4D3F5CC1F70C64800712A73 /* Emergency4ViewController.swift */,
+				A4E513271E9B88A1002E2CB2 /* SetUpViewController.swift */,
+				A4DE93EE1EA73923008BDC19 /* SetPhotoViewController.swift */,
+				A4CADE3F1F209B1000F8E547 /* SetUserImageViewController.swift */,
+				A435A0231F44281000598A83 /* SetDesktopViewController.swift */,
+				A40333BA1EC9E2F10045A82B /* SetSupportViewController.swift */,
+				A40D68451ECAA40700C8A7E8 /* SupportListViewController.swift */,
+				A4E513251E9B887E002E2CB2 /* PluginViewController.swift */,
+				A42247B61E9265B200D6A20F /* UpgradeViewController.swift */,
+				A42247B81E927C4300D6A20F /* AgentViewController.swift */,
+				A42247BA1E927D8600D6A20F /* CandidateViewController.swift */,
+				A41E7F641EC2D34B00997EFA /* PushNoticeViewController.swift */,
+				A42247B21E92480000D6A20F /* PublicOpinionViewController.swift */,
+				A41E7F681EC2EF7100997EFA /* InformationViewController.swift */,
+				A44B765F1F0258F800C6B6A5 /* ContactViewController.swift */,
+				A41E7F661EC2DC5900997EFA /* ManuscriptViewController.swift */,
 				8F9C25291E4AF28300835A91 /* Assets.xcassets */,
 				8F9C252B1E4AF28300835A91 /* LaunchScreen.storyboard */,
 				8F9C252E1E4AF28300835A91 /* Info.plist */,
+				8F9C25341E4B182400835A91 /* chart.storyboard */,
+				8F7472561E4DCB2C00317417 /* convetion.md */,
+				8F591B061E5C3346000DDC90 /* mysqlnames.md */,
+				A4B0BFED1EA79CBC006DED58 /* camera.storyboard */,
+				A4B0BFEF1EA79CF6006DED58 /* camera.swift */,
 			);
 			path = ElectionLoginDemo;
+			sourceTree = "<group>";
+		};
+		8FB413E61E76C32700D89BB8 /* map_datas */ = {
+			isa = PBXGroup;
+			children = (
+				8FD4BE1A1E778DC50008EAF8 /* taiwan_area.xib */,
+				8FB413E71E76C67900D89BB8 /* TaipeiCityView.xib */,
+				8FB413E91E76C6A100D89BB8 /* NewTaipeiCityView.xib */,
+				8F3761791E76879400136869 /* TaoyuanCityView.xib */,
+				8FD4BE201E7798020008EAF8 /* taiwan_area.json */,
+			);
+			name = map_datas;
+			sourceTree = "<group>";
+		};
+		8FDF3F571E557EDD0021E240 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A40A32271F7B50F0006F4FE5 /* TestViewController.swift */,
+				8FDF3F5C1E5588E80021E240 /* myViewController.swift */,
+				A44FDA791F4EB10600C6C8E2 /* my_cloud.swift */,
+				A4D4FE021F3F7744005A017C /* my_textfiled.swift */,
+				A406C5411ED581E000F217B7 /* generic_data.json */,
+				A40D68491ECAB01300C8A7E8 /* Generic.swift */,
+				A495A4B71F35D0D000548D91 /* FLAG.swift */,
+				8FA8081B1E72B6CF004779B8 /* popQRCodeViewController.swift */,
+				8FD655E11E640B6200AE8907 /* AreaIconView.swift */,
+				8FB7F3FE1E5EAEEB00C3546E /* popWindowController.swift */,
+				A406C53D1ED577B800F217B7 /* NetWork.swift */,
+				A4418A891F234C8B005FD485 /* LineView.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		8FDF3F5E1E558CA70021E240 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C25241E4AF28300835A91 /* BufferController.swift */,
+				A4F17FD01F61162E00F7A730 /* BufferView.xib */,
+				A4B3EEB21E9CF95A008ED499 /* HomePageViewController.swift */,
+				8FCBDC1B1E54731000517B8E /* FirstEntryViewController.swift */,
+				8FC482801E6F290F00D37A15 /* QRReaderViewController.swift */,
+				8FCBDC211E54923F00517B8E /* OccupationViewController.swift */,
+				8FCBDC1F1E547D8900517B8E /* CitysViewController.swift */,
+				8FD84F141E57FA9F004E8AF2 /* DistrictViewController.swift */,
+				8FCBDC231E54965700517B8E /* VillageViewController.swift */,
+				8F1CEF811E4DC5C7004C8A60 /* SignInViewController.swift */,
+				8F1CEF7F1E4DC5AE004C8A60 /* LoginViewController.swift */,
+				8FEA80D81E694E4000970C21 /* ReturnLoginViewController.swift */,
+			);
+			name = Entry;
+			sourceTree = "<group>";
+		};
+		8FDF3F5F1E559FC80021E240 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				8FB413E61E76C32700D89BB8 /* map_datas */,
+				8FD655E31E641AB600AE8907 /* taiwan_area.swift */,
+				8FDF3F621E55A0800021E240 /* original.data */,
+				8FDF3F641E55A0BF0021E240 /* 桃園區.data */,
+				A40F80911EA3C7B8008DBED0 /* 中壢區.data */,
+				A40F80931EA3C805008DBED0 /* 平鎮區.data */,
+				A40F80951EA3C831008DBED0 /* 八德區.data */,
+				A40F80971EA3C84F008DBED0 /* 楊梅區.data */,
+				A40F80991EA3C86C008DBED0 /* 蘆竹區.data */,
+				A40F809B1EA3C885008DBED0 /* 大溪區.data */,
+				A40F809D1EA3C8A1008DBED0 /* 大園區.data */,
+				A40F809F1EA3C8BE008DBED0 /* 龜山區.data */,
+				A40F80A11EA3C8E5008DBED0 /* 龍潭區.data */,
+				A40F80A31EA3C90C008DBED0 /* 新屋區.data */,
+				A40F80A51EA3C924008DBED0 /* 觀音區.data */,
+				A40F80A71EA3C939008DBED0 /* 復興區.data */,
+			);
+			name = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F9C251E1E4AF28300835A91 /* ElectionLoginDemo */ = {
+		8F9C251E1E4AF28300835A91 /* twin.taipei.Election */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F9C25311E4AF28300835A91 /* Build configuration list for PBXNativeTarget "ElectionLoginDemo" */;
+			buildConfigurationList = 8F9C25311E4AF28300835A91 /* Build configuration list for PBXNativeTarget "twin.taipei.Election" */;
 			buildPhases = (
 				8F9C251B1E4AF28300835A91 /* Sources */,
 				8F9C251C1E4AF28300835A91 /* Frameworks */,
@@ -79,9 +343,9 @@
 			);
 			dependencies = (
 			);
-			name = ElectionLoginDemo;
+			name = twin.taipei.Election;
 			productName = ElectionLoginDemo;
-			productReference = 8F9C251F1E4AF28300835A91 /* ElectionLoginDemo.app */;
+			productReference = 8F9C251F1E4AF28300835A91 /* twin.taipei.Election.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,8 +360,13 @@
 				TargetAttributes = {
 					8F9C251E1E4AF28300835A91 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 7CA65884MH;
+						DevelopmentTeam = 96KWAU35BD;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -114,7 +383,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F9C251E1E4AF28300835A91 /* ElectionLoginDemo */,
+				8F9C251E1E4AF28300835A91 /* twin.taipei.Election */,
 			);
 		};
 /* End PBXProject section */
@@ -124,9 +393,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A406C5421ED58C0800F217B7 /* generic_data.json in Resources */,
+				A40F80981EA3C84F008DBED0 /* 楊梅區.data in Resources */,
+				8FD4BE211E77A2C50008EAF8 /* taiwan_area.json in Resources */,
+				8FB413EA1E76C6A100D89BB8 /* NewTaipeiCityView.xib in Resources */,
+				A4F17FD11F61162E00F7A730 /* BufferView.xib in Resources */,
+				A40F80A81EA3C939008DBED0 /* 復興區.data in Resources */,
 				8F9C252D1E4AF28300835A91 /* LaunchScreen.storyboard in Resources */,
+				8FD4BE1B1E778DC50008EAF8 /* taiwan_area.xib in Resources */,
+				A40F80941EA3C805008DBED0 /* 平鎮區.data in Resources */,
+				8FB413E81E76C67900D89BB8 /* TaipeiCityView.xib in Resources */,
+				8F37617A1E76879400136869 /* TaoyuanCityView.xib in Resources */,
+				8FDF3F631E55A0800021E240 /* original.data in Resources */,
+				A40F80961EA3C831008DBED0 /* 八德區.data in Resources */,
+				A40F80A21EA3C8E5008DBED0 /* 龍潭區.data in Resources */,
+				A40F80A61EA3C924008DBED0 /* 觀音區.data in Resources */,
+				A4CADE3E1F1F74D500F8E547 /* Entry.storyboard in Resources */,
+				8F9C25351E4B182400835A91 /* chart.storyboard in Resources */,
+				A40F809E1EA3C8A1008DBED0 /* 大園區.data in Resources */,
+				8FDF3F651E55A0BF0021E240 /* 桃園區.data in Resources */,
 				8F9C252A1E4AF28300835A91 /* Assets.xcassets in Resources */,
+				A4B0BFEE1EA79CBC006DED58 /* camera.storyboard in Resources */,
+				A40F80A01EA3C8BE008DBED0 /* 龜山區.data in Resources */,
+				A40F809C1EA3C885008DBED0 /* 大溪區.data in Resources */,
+				A40F80A41EA3C90C008DBED0 /* 新屋區.data in Resources */,
 				8F9C25281E4AF28300835A91 /* Main.storyboard in Resources */,
+				A40F80921EA3C7B8008DBED0 /* 中壢區.data in Resources */,
+				A40F809A1EA3C86C008DBED0 /* 蘆竹區.data in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +430,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9C25251E4AF28300835A91 /* ViewController.swift in Sources */,
+				A4B0BFF01EA79CF6006DED58 /* camera.swift in Sources */,
+				A406C53E1ED577B800F217B7 /* NetWork.swift in Sources */,
+				A435A0241F44281000598A83 /* SetDesktopViewController.swift in Sources */,
+				A4E513241E9B8780002E2CB2 /* RelationViewController.swift in Sources */,
+				A41E7F671EC2DC5900997EFA /* ManuscriptViewController.swift in Sources */,
+				8FD655E41E641AB600AE8907 /* taiwan_area.swift in Sources */,
+				A42247B11E9245FA00D6A20F /* AidesViewController.swift in Sources */,
+				8FB7F3FF1E5EAEEB00C3546E /* popWindowController.swift in Sources */,
+				8F1CEF821E4DC5C7004C8A60 /* SignInViewController.swift in Sources */,
+				A4E513261E9B887E002E2CB2 /* PluginViewController.swift in Sources */,
+				A40D684A1ECAB01300C8A7E8 /* Generic.swift in Sources */,
+				A40D68461ECAA40700C8A7E8 /* SupportListViewController.swift in Sources */,
+				8F1CEF801E4DC5AE004C8A60 /* LoginViewController.swift in Sources */,
+				8F7472571E4DCB2C00317417 /* convetion.md in Sources */,
+				8FA8081C1E72B6CF004779B8 /* popQRCodeViewController.swift in Sources */,
+				8FCBDC201E547D8900517B8E /* CitysViewController.swift in Sources */,
+				A40A32281F7B50F0006F4FE5 /* TestViewController.swift in Sources */,
+				A4DE93EF1EA73923008BDC19 /* SetPhotoViewController.swift in Sources */,
+				A40333B91EC9D6440045A82B /* SelectSupportedViewController.swift in Sources */,
+				8FD655E21E640B6200AE8907 /* AreaIconView.swift in Sources */,
+				A42247B91E927C4300D6A20F /* AgentViewController.swift in Sources */,
+				A41E7F691EC2EF7100997EFA /* InformationViewController.swift in Sources */,
+				A41CF1971EFA184000E4A819 /* RelationD3jsViewController.swift in Sources */,
+				A4D3F5CB1F70C63500712A73 /* Emergency3ViewController.swift in Sources */,
+				A495A4B81F35D0D000548D91 /* FLAG.swift in Sources */,
+				8FCBDC241E54965700517B8E /* VillageViewController.swift in Sources */,
+				8F9C25251E4AF28300835A91 /* BufferController.swift in Sources */,
+				A42247BB1E927D8600D6A20F /* CandidateViewController.swift in Sources */,
+				A4D3F5CD1F70C64800712A73 /* Emergency4ViewController.swift in Sources */,
+				A42247AD1E92403500D6A20F /* EmergencyViewController.swift in Sources */,
+				A42247AB1E9235EF00D6A20F /* AnnouncementViewController.swift in Sources */,
+				8FD84F151E57FA9F004E8AF2 /* DistrictViewController.swift in Sources */,
+				8FD655E01E63FEBD00AE8907 /* AreaIconViewController.swift in Sources */,
+				A4D4FE031F3F7744005A017C /* my_textfiled.swift in Sources */,
+				8FC482811E6F290F00D37A15 /* QRReaderViewController.swift in Sources */,
+				8FCBDC221E54923F00517B8E /* OccupationViewController.swift in Sources */,
+				A4CADE401F209B1000F8E547 /* SetUserImageViewController.swift in Sources */,
+				A4D3F5C91F70C62100712A73 /* Emergency2ViewController.swift in Sources */,
+				A44FDA7A1F4EB10600C6C8E2 /* my_cloud.swift in Sources */,
+				A4418A8A1F234C8B005FD485 /* LineView.swift in Sources */,
+				A40333BB1EC9E2F10045A82B /* SetSupportViewController.swift in Sources */,
+				8FDF3F5D1E5588E80021E240 /* myViewController.swift in Sources */,
+				A42247B31E92480000D6A20F /* PublicOpinionViewController.swift in Sources */,
+				8FEA80D91E694E4000970C21 /* ReturnLoginViewController.swift in Sources */,
+				8F591B071E5C3346000DDC90 /* mysqlnames.md in Sources */,
 				8F9C25231E4AF28300835A91 /* AppDelegate.swift in Sources */,
+				A42247B51E924BEE00D6A20F /* PolicyViewController.swift in Sources */,
+				A41E7F651EC2D34B00997EFA /* PushNoticeViewController.swift in Sources */,
+				A44B76601F0258F800C6B6A5 /* ContactViewController.swift in Sources */,
+				A42247B71E9265B200D6A20F /* UpgradeViewController.swift in Sources */,
+				A4B3EEB31E9CF95A008ED499 /* HomePageViewController.swift in Sources */,
+				8FDF48C31E531C0000EECC86 /* MainViewController.swift in Sources */,
+				A4E513281E9B88A1002E2CB2 /* SetUpViewController.swift in Sources */,
+				8FCBDC1C1E54731000517B8E /* FirstEntryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +494,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8F9C25271E4AF28300835A91 /* Base */,
+				A45A01341EEBDB9E009B5EBF /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,6 +503,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8F9C252C1E4AF28300835A91 /* Base */,
+				A45A01351EEBDB9E009B5EBF /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -204,7 +552,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -218,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -248,7 +597,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,11 +610,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7CA65884MH;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_ENTITLEMENTS = twin.taipei.Election.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 96KWAU35BD;
 				INFOPLIST_FILE = ElectionLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = EZoneLai.ElectionLoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = twin.taipeireleaseElection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +628,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7CA65884MH;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_ENTITLEMENTS = twin.taipei.Election.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 96KWAU35BD;
 				INFOPLIST_FILE = ElectionLoginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = EZoneLai.ElectionLoginDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = twin.taipeireleaseElection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -295,13 +654,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F9C25311E4AF28300835A91 /* Build configuration list for PBXNativeTarget "ElectionLoginDemo" */ = {
+		8F9C25311E4AF28300835A91 /* Build configuration list for PBXNativeTarget "twin.taipei.Election" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F9C25321E4AF28300835A91 /* Debug */,
 				8F9C25331E4AF28300835A91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

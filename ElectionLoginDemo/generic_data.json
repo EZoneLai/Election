@@ -1,0 +1,15 @@
+{
+    "information_web":"http://2016legcoelection.hk01.com/page/constituency/58",
+    "push_notice_web":"https://cloud.taipei/web_nms_getList?pg=1",
+    "manuscript_web":"http://172.20.10.7/babeta/toven.php",
+    "my_homepage_web":"http://172.20.10.7/ElectionDiscuz3.3/upload/forum.php?",
+    "annoucement_web":"http://172.20.10.7/ElectionDiscuz3.3/upload/forum.php?",
+    "policy_web":"http://172.20.10.7/discuz/upload/forum.php?mod=forumdisplay&fid=58&mobile=2",
+    "relation_d3js_web":"http://172.20.10.7/trees/genD3jsview.php?",
+    "emergency_web":"http://172.20.10.7/discuz/upload/forum.php?mod=forumdisplay&fid=50",
+    "aides_web":"https://www.writepath.co/tw/team",
+    "public_opinion_web":"http://172.20.10.7/discuz/upload/forum.php?mod=forumdisplay&fid=47&&mobile=2",
+    "contact_web":"http://172.20.10.7/Datatable/Datatable.html",
+    "default_head":"",
+    "default_head_size":""
+}

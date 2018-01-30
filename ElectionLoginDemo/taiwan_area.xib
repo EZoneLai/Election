@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="580" height="819"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="frc-OS-9u5">
+                    <rect key="frame" x="0.0" y="0.0" width="580" height="819"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView tag="1000" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaiwanImage" translatesAutoresizingMaskIntoConstraints="NO" id="jho-7k-OcW" customClass="AreaIconView" customModule="ElectionLoginDemo" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="580" height="819"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="map_area" value="taiwan_area"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="3000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NewTaipeiCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="Xpu-P4-yh0">
+                            <rect key="frame" x="416" y="28" width="150" height="144"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="2000" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaipeiCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="pKh-rk-AJ5">
+                            <rect key="frame" x="453" y="49" width="44" height="59"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="4000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KeelungCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="m2M-yS-fSW">
+                            <rect key="frame" x="485" y="55" width="40" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="5000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaoyuanCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="BwH-7N-TAU">
+                            <rect key="frame" x="354" y="68" width="104" height="122"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="6000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HsinchuCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="FZd-qY-E3D">
+                            <rect key="frame" x="331" y="131" width="32" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="7000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HsinchuCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="P2z-M2-Njp">
+                            <rect key="frame" x="343" y="109" width="100" height="118"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="18000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YilanCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="gVu-ib-ety">
+                            <rect key="frame" x="423" y="97" width="134" height="155"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="8000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MiaoliCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="peT-A9-LzU">
+                            <rect key="frame" x="279" y="156" width="134" height="103"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="10000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YunlinCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="RfU-7u-aHb">
+                            <rect key="frame" x="179" y="357" width="128" height="77"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="9000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChanghuaCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="AqI-Tn-ybo">
+                            <rect key="frame" x="205" y="276" width="91" height="95"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="15000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TainanCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="TnP-vf-XhA">
+                            <rect key="frame" x="159" y="453" width="131" height="119"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="20000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaitungCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="mRU-ph-a0G">
+                            <rect key="frame" x="306" y="446" width="157" height="274"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="13000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TaichungCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="BqG-p0-Hvd">
+                            <rect key="frame" x="253" y="221" width="201" height="102"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="14000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NantouCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="z7g-n8-rxY">
+                            <rect key="frame" x="281" y="267" width="152" height="184"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="16000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KaohsiungCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="gC0-80-8FX">
+                            <rect key="frame" x="187" y="440" width="185" height="224"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="12000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChiayiCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="lGd-Hj-sRS">
+                            <rect key="frame" x="176" y="402" width="175" height="96"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="11000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ChiayiCityImage" translatesAutoresizingMaskIntoConstraints="NO" id="5QH-f9-NKo">
+                            <rect key="frame" x="233" y="426" width="26" height="19"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="19000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HualienCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="kTQ-pJ-TY5">
+                            <rect key="frame" x="358" y="238" width="163" height="286"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" tag="17000" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PingtungCountyImage" translatesAutoresizingMaskIntoConstraints="NO" id="2xM-BH-CAM">
+                            <rect key="frame" x="239" y="570" width="103" height="222"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ChanghuaCountyImage" width="91" height="95"/>
+        <image name="ChiayiCityImage" width="27" height="21"/>
+        <image name="ChiayiCountyImage" width="175" height="96"/>
+        <image name="HsinchuCityImage" width="32" height="34"/>
+        <image name="HsinchuCountyImage" width="100" height="118"/>
+        <image name="HualienCountyImage" width="163" height="286"/>
+        <image name="KaohsiungCityImage" width="185" height="224"/>
+        <image name="KeelungCityImage" width="40" height="33"/>
+        <image name="MiaoliCountyImage" width="134" height="103"/>
+        <image name="NantouCountyImage" width="152" height="184"/>
+        <image name="NewTaipeiCityImage" width="150" height="144"/>
+        <image name="PingtungCountyImage" width="103" height="222"/>
+        <image name="TaichungCityImage" width="201" height="102"/>
+        <image name="TainanCityImage" width="131" height="119"/>
+        <image name="TaipeiCityImage" width="44" height="59"/>
+        <image name="TaitungCountyImage" width="157" height="274"/>
+        <image name="TaiwanImage" width="580" height="819"/>
+        <image name="TaoyuanCityImage" width="104" height="122"/>
+        <image name="YilanCountyImage" width="134" height="155"/>
+        <image name="YunlinCountyImage" width="128" height="77"/>
+    </resources>
+</document>
